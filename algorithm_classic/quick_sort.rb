@@ -14,5 +14,5 @@ def quick_sort(numbers)
   quick_sort(smallers) + [target] + quick_sort(biggers)
 end
 
-numbers = [2,4,5,7,8,5,10,11]
+numbers = [3,11,5,7,8,5,5,11]
 p quick_sort(numbers)
