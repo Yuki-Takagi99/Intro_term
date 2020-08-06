@@ -17,11 +17,11 @@
 def test
   (1..100).each do |i|
     if i % 15 == 0
-      puts "FizzBuzz"
+      puts "#{i}:FizzBuzz"
     elsif i % 3 == 0
-      puts "Fizz"
+      puts "#{i}:Fizz"
     elsif i % 5 == 0
-      puts "Buzz"
+      puts "#{i}:Buzz"
     else
       puts i
     end
